@@ -59,6 +59,22 @@ header nav .menu {
   transform-origin: top;
 }
 
+header .products-carousel {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+}
+
+header .products-carousel .slide {
+  display: flex;
+}
+
+
+header .products-carousel .slide img {
+  display: block;
+  width: 100%;
+}
+
+
 #burger-checkbox:checked ~ .menu {
     display: flex;
     transform: scaleY(1);
@@ -140,3 +156,4 @@ main .products > article .buttons {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
