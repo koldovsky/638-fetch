@@ -1,0 +1,38 @@
+[
+    {
+       "id":"1",
+       "title":"Baby Yoda",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
+       "price":9.99,
+       "image":"img/baby-yoda.svg"
+    },
+    {
+       "id":"2",
+       "title":"Banana",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
+       "price":8.99,
+       "image":"img/banana.svg"
+    },
+    {
+       "id":"3",
+       "title":"Girl",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
+       "price":7.99,
+       "image":"img/girl.svg"
+    },
+    {
+       "id":"4",
+       "title":"Viking",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
+       "price":6.99,
+       "image":"img/viking.svg"
+    },
+    {
+       "id":"5",
+       "title":"Cat",
+       "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita obcaecati adipisci explicabo impedit facere est qui voluptate. Fugiat libero molestiae suscipit eaque quae nihil sequi esse numquam dolor nisi!",
+       "price":6.99,
+       "image":"http://placekitten.com/408/287"
+    }
+ ]
+ 

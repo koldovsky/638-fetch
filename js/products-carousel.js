@@ -1,10 +1,9 @@
-(function () {
-    const slides = [
-        '<div><img src="img/baby-yoda.svg" alt="Baby Yoda"></div>',
-        '<div><img src="img/banana.svg" alt="Banana"></div>',
-        '<div><img src="img/viking.svg" alt="Viking"></div>',
-        '<div><img src="img/girl.svg" alt="Girl"></div>',
-    ];
+(async function () {
+    
+    const response = await fetch('products.json');
+    const products = await response.json();
+    const slides = products.map( product => `<div><img src="${product.image}" 
+     alt="${product.title}"></div>`);
 
     let currentSlide = 0;
 

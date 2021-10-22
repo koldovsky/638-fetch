@@ -37,11 +37,12 @@
     </header>
     <main class="container">
       <h2 id="products" class="product-header">Products</h2>
-      <div class="products"></div>
+      <input type="text" class="currency" value="USD"><button class="convert">Convert</button>
+      <div class="products">Loading...</div>
     </main>
     <footer class="container">
       <h2 id="contacts">Contacts!</h2>
-      <form action="" method="POST">
+      <form class="contact-form-formspree" action="https://formspree.io/YOUR_LINK" method="POST">
         <label
           >Your name:
           <input type="text" name="user-name" placeholder="User Name" />
@@ -52,10 +53,23 @@
         </label>
         <input type="submit" />
       </form>
-      <p>Some contacts</p>
+      <form class="contact-form-nodejs" action="contact" method="POST">
+        <label
+          >Your name:
+          <input type="text" name="user-name" placeholder="User Name" />
+        </label>
+        <label
+          >Your email:
+          <input type="email" name="user-email" placeholder="User Email" />
+        </label>
+        <input type="submit" />
+      </form>
+      <p class="contact-form-status"></p>
     </footer>
     <script src="js/index.js"></script>
     <script src="js/product-list.js"></script>
     <script src="js/products-carousel.js"></script>
+    <script src="js/contact-form-nodejs.js"></script>
+    <script src="js/contact-form-formspree.js"></script>
   </body>
 </html>
